@@ -20,8 +20,8 @@ function App() {
       <Header />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home items={pizzas} />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/pizza_v1" element={<Home items={pizzas} />} />
+          <Route path="/pizza_v1/cart" element={<Cart />} />
         </Routes>
       </div>
     </div>
