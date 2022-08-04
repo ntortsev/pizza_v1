@@ -8,7 +8,7 @@ function App() {
   const [pizzas, setPizzas] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/db.json')
+    fetch('http://localhost:3000/pizza_v1/db.json')
       .then((resp) => resp.json())
       .then((json) => {
         setPizzas(json.pizzas);
